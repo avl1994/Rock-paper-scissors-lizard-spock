@@ -1,0 +1,103 @@
+body
+{
+	margin:0;
+}
+
+#zona_juego
+{
+	height:80%;
+	width:100%;
+	float:left;
+}
+
+#zona_conf
+{
+	padding-top:2%;
+	height:20%;
+	width:100%;
+	float:left;
+	box-sizing: border-box;
+}
+
+#zona_jugadores
+{
+	width:100%;
+	float:left;
+	height:90%;
+}
+
+#resultado_juego
+{
+	height:10%;
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+#resultado_juego span
+{
+	font-size:30px;
+}
+
+#jugador1, #jugador2
+{
+	height:100%;
+	width:50%;
+	float:left;
+}
+
+#tipo_juego
+{
+	width:100%;
+}
+
+#tipo_juego select
+{
+	width:20%;
+	display:block;
+	margin:auto;
+}
+
+.opciones_juego
+{
+	width:15%;
+	height:100%;
+	float:left;
+}
+
+#opcion_jugador1, #opcion_jugador2
+{
+	width:85%;
+	height:100%;
+	float:left;
+	position:relative;
+}
+
+#opcion_jugador1 img, #opcion_jugador2 img
+{
+	max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.opcion
+{
+	height:20%;
+	width:100%;
+	float:left;
+}
+.opcion img
+{
+	cursor:pointer;
+}
+
+img
+{
+	max-width:100%;
+	max-height:100%;
+}
